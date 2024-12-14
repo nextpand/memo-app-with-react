@@ -1,10 +1,10 @@
 import React from 'react'
 import { Header } from '../components/Header/header'
 
-export default function Page3() {
+export default function CSSLink() {
   return (
     <div>
-      <Header title="Page3"></Header>
+        <Header></Header>
     </div>
   )
 }
