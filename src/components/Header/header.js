@@ -24,7 +24,7 @@ const linkStyle = {
     transition: 'color 0.3s',
 };
 
-export const Header = ({}) => {
+export const Header = () => {
     return (
         <div>
             <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>学習記録</h1>
@@ -41,10 +41,10 @@ export const Header = ({}) => {
                 <div style={sectionStyle}>
                     <h2 style={{ fontSize: '1rem', margin: '5px 0' }}>ページ群</h2>
                     <div style={linkGroupStyle}>
-                        <Link to="/HTMLLink" style={linkStyle}>HTML</Link>
-                        <Link to="/CSSLink" style={linkStyle}>CSS</Link>
-                        <Link to="/JavaScriptLink" style={linkStyle}>JavaScript</Link>
-                        <Link to="/ReactLink" style={linkStyle}>React</Link>
+                        <Link to="/html" style={linkStyle}>HTML</Link>
+                        <Link to="/css" style={linkStyle}>CSS</Link>
+                        <Link to="/javascript" style={linkStyle}>JavaScript</Link>
+                        <Link to="/react" style={linkStyle}>React</Link>
                     </div>
                 </div>
             </div>
