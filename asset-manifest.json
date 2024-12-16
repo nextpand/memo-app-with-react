@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/memo-app-with-react/static/css/main.f855e6bc.css",
+    "main.js": "/memo-app-with-react/static/js/main.c907dcbc.js",
+    "index.html": "/memo-app-with-react/index.html",
+    "main.f855e6bc.css.map": "/memo-app-with-react/static/css/main.f855e6bc.css.map",
+    "main.c907dcbc.js.map": "/memo-app-with-react/static/js/main.c907dcbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c907dcbc.js"
+  ]
+}
