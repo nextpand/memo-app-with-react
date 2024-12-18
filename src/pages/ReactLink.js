@@ -37,6 +37,11 @@ const ReactLink = () => {
       <p>ここではReactの基本について学びます。</p>
       <h2>学習セクション</h2>
       <ul style={listStyle}>
+      <li>
+          <Link to="/react/structure" style={linkStyle}>
+            reactの構造
+          </Link>
+        </li>
         <li>
           <Link to="/react/components" style={linkStyle}>
             コンポーネント
